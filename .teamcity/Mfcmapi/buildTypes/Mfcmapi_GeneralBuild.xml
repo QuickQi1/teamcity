@@ -2,6 +2,9 @@
 <template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="1943f1eb-413a-4414-af60-921a8e7f0991" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/10.0/project-config.xsd">
   <name>General Build</name>
   <settings>
+    <options>
+      <option name="artifactRules" value="c:\Output\InTrust&#xA;C:\data\Logs =&gt; logs.zip" />
+    </options>
     <parameters />
     <build-runners />
     <vcs-settings />
