@@ -20,6 +20,42 @@
         <param name="showChanges" value="true" />
       </parameters>
     </extension>
+    <extension id="PROJECT_EXT_3" type="CloudImage">
+      <parameters>
+        <param name="$datacenterId" value="datacenter-2" />
+        <param name="agent_pool_id" value="0" />
+        <param name="behaviour" value="ON_DEMAND_CLONE" />
+        <param name="folder" value="group-v83350" />
+        <param name="maxInstances" value="2" />
+        <param name="pool" value="__DEFAULT_RESOURCE_POOL__" />
+        <param name="profileId" value="vmw-1" />
+        <param name="snapshot" value="minzhang start work" />
+        <param name="source-id" value="MMEx-Builder" />
+        <param name="sourceVmName" value="MMEx-Builder" />
+      </parameters>
+    </extension>
+    <extension id="vmw-1" type="CloudProfile">
+      <parameters>
+        <param name="agentPushPreset" value="" />
+        <param name="cloud-code" value="vmw" />
+        <param name="description" value="" />
+        <param name="enabled" value="true" />
+        <param name="helperFieldId" value="folder" />
+        <param name="helperFieldValue" value="group-v83350" />
+        <param name="image" value="MMEx-Builder" />
+        <param name="name" value="Test VM" />
+        <param name="next-hour" value="" />
+        <param name="profileId" value="vmw-1" />
+        <param name="secure:vmware_password" value="credentialsJSON:cbe271b2-124a-4c7f-a989-ac62291359be" />
+        <param name="source_images_json" value="[{&quot;behaviour&quot;:&quot;ON_DEMAND_CLONE&quot;,&quot;maxInstances&quot;:&quot;2&quot;,&quot;sourceVmName&quot;:&quot;MMEx-Builder&quot;,&quot;$datacenterId&quot;:&quot;datacenter-2&quot;,&quot;snapshot&quot;:&quot;minzhang start work&quot;,&quot;folder&quot;:&quot;group-v83350&quot;,&quot;agent_pool_id&quot;:&quot;0&quot;,&quot;pool&quot;:&quot;__DEFAULT_RESOURCE_POOL__&quot;,&quot;source-id&quot;:&quot;MMEx-Builder&quot;}]" />
+        <param name="terminate-after-build" value="true" />
+        <param name="terminate-idle-time" value="30" />
+        <param name="total-work-time" value="" />
+        <param name="vmware_profile_instance_limit" value="2" />
+        <param name="vmware_server_url" value="https://10.30.180.5/sdk" />
+        <param name="vmware_username" value="prod\qqi" />
+      </parameters>
+    </extension>
   </project-extensions>
   <cleanup>
     <options>
