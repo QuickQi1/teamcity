@@ -6,6 +6,7 @@
   <param name="authMethod" value="PASSWORD" />
   <param name="branch" value="refs/heads/master" />
   <param name="ignoreKnownHosts" value="true" />
+  <param name="reportTagRevisions" value="true" />
   <param name="secure:password" value="credentialsJSON:cbe271b2-124a-4c7f-a989-ac62291359be" />
   <param name="submoduleCheckout" value="CHECKOUT" />
   <param name="url" value="https://github.com/QuickQi1/ews-cpp" />
