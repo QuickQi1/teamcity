@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="257eafdf-38c9-460a-a600-c2b0fbbf0703" type="jetbrains.git" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/10.0/project-config.xsd">
+  <name>mfcmapi</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="push_url" value="https://github.com/QuickQi1/mfcmapi" />
+  <param name="secure:password" value="credentialsJSON:6753ea87-87ce-4a2c-9eec-002dd5482eb8" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="teamcity:branchSpec" value="+/refs/heads/*" />
+  <param name="url" value="https://github.com/QuickQi1/mfcmapi" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="quickqi1" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+

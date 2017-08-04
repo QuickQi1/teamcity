@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="9e2d372e-88e2-4ce4-ab11-86a0f37b1c84" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/10.0/project-config.xsd">
+  <name>Mfcmapi</name>
+  <parameters />
+  <cleanup />
+</project>
+
