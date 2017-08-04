@@ -5,7 +5,9 @@
   <settings ref="Mfcmapi_GeneralBuild">
     <parameters />
     <build-runners order="RUNNER_1, RUNNER_2" />
-    <vcs-settings />
+    <vcs-settings>
+      <vcs-entry-ref root-id="Mfcmapi_HttpsGithubComQuickQi1mfcmapiRefsHeadsMaster" />
+    </vcs-settings>
     <requirements />
     <build-triggers />
     <cleanup />
