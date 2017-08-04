@@ -8,9 +8,7 @@
     <parameters />
     <build-runners />
     <vcs-settings />
-    <requirements>
-      <equals id="RQ_1" name="VS2015" value="14.0.25420.1" />
-    </requirements>
+    <requirements />
     <build-triggers />
     <build-extensions>
       <extension id="BUILD_EXT_1" type="VcsLabeling">
