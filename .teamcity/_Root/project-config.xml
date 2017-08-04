@@ -24,7 +24,7 @@
       <parameters>
         <param name="$datacenterId" value="datacenter-2" />
         <param name="agent_pool_id" value="0" />
-        <param name="behaviour" value="ON_DEMAND_CLONE" />
+        <param name="behaviour" value="FRESH_CLONE" />
         <param name="folder" value="group-v83350" />
         <param name="maxInstances" value="2" />
         <param name="pool" value="__DEFAULT_RESOURCE_POOL__" />
@@ -47,7 +47,8 @@
         <param name="next-hour" value="" />
         <param name="profileId" value="vmw-1" />
         <param name="secure:vmware_password" value="credentialsJSON:cbe271b2-124a-4c7f-a989-ac62291359be" />
-        <param name="source_images_json" value="[{&quot;behaviour&quot;:&quot;ON_DEMAND_CLONE&quot;,&quot;maxInstances&quot;:&quot;2&quot;,&quot;sourceVmName&quot;:&quot;MMEx-Builder&quot;,&quot;$datacenterId&quot;:&quot;datacenter-2&quot;,&quot;snapshot&quot;:&quot;minzhang start work&quot;,&quot;folder&quot;:&quot;group-v83350&quot;,&quot;agent_pool_id&quot;:&quot;0&quot;,&quot;pool&quot;:&quot;__DEFAULT_RESOURCE_POOL__&quot;,&quot;source-id&quot;:&quot;MMEx-Builder&quot;}]" />
+        <param name="source_images_json" value="[{&quot;$datacenterId&quot;:&quot;datacenter-2&quot;,&quot;folder&quot;:&quot;group-v83350&quot;,&quot;profileId&quot;:&quot;vmw-1&quot;,&quot;agent_pool_id&quot;:&quot;0&quot;,&quot;pool&quot;:&quot;__DEFAULT_RESOURCE_POOL__&quot;,&quot;behaviour&quot;:&quot;FRESH_CLONE&quot;,&quot;maxInstances&quot;:&quot;2&quot;,&quot;sourceVmName&quot;:&quot;MMEx-Builder&quot;,&quot;snapshot&quot;:&quot;minzhang start work&quot;,&quot;source-id&quot;:&quot;MMEx-Builder&quot;}]" />
+        <param name="system.cloud.profile_id" value="vmw-1" />
         <param name="terminate-after-build" value="true" />
         <param name="terminate-idle-time" value="30" />
         <param name="total-work-time" value="" />
