@@ -2,9 +2,9 @@
 <build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="923bd586-a4eb-47c7-8a92-df015eac6b1b" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/10.0/project-config.xsd">
   <name>Build</name>
   <description />
-  <settings>
+  <settings ref="Mfcmapi_GeneralBuild">
     <parameters />
-    <build-runners />
+    <build-runners order="RUNNER_1, RUNNER_2" />
     <vcs-settings>
       <vcs-entry-ref root-id="Mfcmapi_HttpsGithubComQuickQi1mfcmapiRefsHeadsMaster" />
     </vcs-settings>
